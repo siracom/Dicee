@@ -1,0 +1,59 @@
+body{
+  text-align: center;
+  padding: 0% 20% 5%;
+}
+
+h1{
+  font-size: 3rem;
+  font-family: 'Charm', cursive;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Grenze Gotisch', cursive;
+}
+
+.refresh-button{
+  padding: 1% 2%;
+  margin: 100px 0px;
+}
+
+.player-text{
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.change-player-button{
+  padding: 1% 2%;
+  margin-bottom: 60px;
+}
+
+.dice-image1{
+  width: 150px;
+  height: 150px;
+}
+
+.dice-image2{
+  width: 150px;
+  height: 150px;
+}
+
+.name{
+  color: blue;
+}
+.result{
+  margin: 20px;
+  padding-top: 5%;
+  visibility: hidden;
+  font-family: 'Oxanium', cursive;
+}
+
+.result-em{
+  font-size: 6rem;
+  color: red;
+}
+
+.result-icon{
+  font-size: 4rem;
+  color: #fe91ca;
+}

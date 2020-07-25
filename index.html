@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Siraco Dice Game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Grenze+Gotisch:wght@800&family=Oxanium:wght@700&display=swap" rel="stylesheet">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script type="text/javascript" src="js/myscript.js">
+
+  </script>
+</head>
+
+<body>
+  <h1 class="result"></h1>
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="player-text">Player 1</h2>
+      <img class="dice-image1" src="images/player1/player1-number6.png" alt="P1-dice">
+    </div>
+    <div class="col-md-6">
+      <h2 class="player-text">Player 2</h2>
+      <img class="dice-image2" src="images/player2/player2-number6.png" alt="P2-dice">
+    </div>
+  </div>
+  <button onClick="roll()" class="refresh-button btn btn-info btn-block" type="button" name="button">
+    <h1>Click to Play</h1>
+  </button>
+  <button onClick="fetch()" class="change-player-button btn btn-outline-dark btn-block" type="button" name="button">
+    <h1>Change Player Names</h1>
+  </button>
+</body>
+
+</html>
